@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Task Tracker{% endblock %}</title>
+</head>
+<body>
+
+    <header>
+        <h1>{% block header %}Task Tracker{% endblock %}</h1>
+        <!-- Add any other common header elements here -->
+    </header>
+
+    <nav>
+        <!-- Add navigation links if needed -->
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Add any common footer elements here -->
+    </footer>
+
+</body>
+</html>
